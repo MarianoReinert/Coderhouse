@@ -1,0 +1,61 @@
+.contenedor-titulo {
+    margin-top: 115px;
+    text-align: center;
+}
+
+.contenedor-titulo2 {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.contenedor-carta-edif {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+       &_sub-Carta-edifi{
+            width: 100%;
+               img{
+                width: 100%;
+            }
+      }
+}
+
+.botones {
+    display: inline-block;
+    border: 1px;
+    padding: 2px 3px;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.imagen-wthassap {
+    position: fixed;
+    bottom: 2px;
+    right: 30px;
+    height: 131px;
+    cursor: pointer;
+    $border-radius: 25px;
+}
+
+.p {
+    @if $temperatura < 50{
+        color: $clr-dark
+    } @else if $temperatura < 70{
+        color: $clr-green
+    } 
+    word-spacing: 5px;
+    font-size: 18px;
+    display: center;
+}
+
+.BordesRedondos {
+    border-radius: 6px;
+}

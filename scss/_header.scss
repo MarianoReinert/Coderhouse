@@ -1,0 +1,22 @@
+.encabezado {
+    width: 100%;
+    &_nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+    &_menu{
+        display: flex;
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        color: $clr-green ;
+        li{
+            margin: 3px;
+        }
+    }
+
+}
+
