@@ -1,3 +1,44 @@
+@media only screen and (max-width: 800px) {
+    .contenedor-carta-edif{
+    grid-template-columns: 1fr  ;
+    }
+.encabezado_nav{
+    flex-direction: column;
+}
+.footer {
+  
+    &_container__grid{
+        grid-template-columns: 1fr;
+
+    }
+}
+.content-input{
+    height: 400px;
+}
+.encabezado_menu{
+    li{
+        a{
+            font-size: 12px;
+        }
+    }
+}
+
+.Titulos{
+    h1{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 18px;
+    }
+}
+
+.carta-edificio{
+    &__contenido{
+        font-size: 14px;
+    }
+}
+
+}
 @media only screen and (max-width: 600px) {
     .nav {
         flex-wrap: wrap;

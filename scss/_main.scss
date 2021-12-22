@@ -7,6 +7,22 @@
     margin-top: 75px;
     text-align: center;
 }
+.carousel-home{
+    width: 60%;
+    height: 50%;
+   
+}
+.carousel-img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.sub-Carta-edifi{
+    img{
+        height: 400px;
+        width: 100%;
+    }
+}
 
 .contenedor-carta-edif {
     display: grid;

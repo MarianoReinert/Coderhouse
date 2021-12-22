@@ -1,5 +1,9 @@
 .encabezado {
     width: 100%;
+    background-color: $clr-secondary;
+    span{
+        color: white;
+    }
     &_nav{
         display: flex;
         align-items: center;
@@ -15,6 +19,7 @@
         color: $clr-green ;
         li{
             margin: 3px;
+           
         }
     }
 
